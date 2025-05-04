@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.app-container {
+  max-width: 200px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.auth-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.auth-button,
+.action-button,
+.logout-button,
+.link-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 10px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.auth-button {
+  background-color: #4285f4;
+  color: white;
+}
+
+.action-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.logout-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.link-button {
+  background-color: #2196f3;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+}
+
+.auth-button:hover,
+.action-button:hover,
+.logout-button:hover,
+.link-button:hover {
+  transform: scale(1.03);
+  filter: brightness(1.1);
+}
+
+.image-container {
+  margin-top: 40px; /* aumenta per spostare più in basso */
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.image-container img {
+  width: 10px; /* O anche 150px, puoi regolare */
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}

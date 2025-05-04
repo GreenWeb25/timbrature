@@ -1,0 +1,32 @@
+/* ReportTimbrature.css */
+
+/* Aggiungi il padding alla colonna della posizione */
+table th:nth-child(4),
+table td:nth-child(4) {
+  width: 200px; /* Imposta una larghezza adeguata per la posizione */
+  text-align: center;
+  padding: 12px;
+}
+
+td {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+.export-btn {
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.export-btn:hover {
+  background-color: #45a049;
+}
